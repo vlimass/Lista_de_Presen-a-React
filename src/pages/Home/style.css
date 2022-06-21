@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.container h1 {
+    margin: 84px 0 24px;
+}
+
+.container input {
+    width: 50%;
+    padding: 24px;
+
+    background-color: #E6E6E6;
+    border-radius: 5px;
+    border: none;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.container button {
+    width: 50%;
+    padding: 24px;
+    font-weight: 700;
+
+    background-color: #EA4C89;
+    color: #fff;
+
+    border-radius: 5px;
+    margin: 12px 0 84px;
+    border: none;
+
+    cursor: pointer;
+
+    transition: filter .2s;
+}
+
+.container button:hover {
+    filter: brightness(0.9);
+}
